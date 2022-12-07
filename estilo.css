@@ -5,42 +5,55 @@
   
   button {
     border: none;
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(100, 100, 100);
     cursor: pointer;
     fill: hsla(24, 19%, 95%, 0.97);
-  }
+    }
   
   button svg {
     height: 15px;
     width: 15px;
     transition: all 0.2s ease-in-out;
-  }
+    }
   
 button:hover svg {
     transform: scale(1.2);
     fill: #c5c2bff6;
   }
   
-  body button span  {
+  .bell {
     position: absolute;
     /*right: 1px;
     top: 1px;*/
-    border-radius: 7px;
+    border-radius: 9px;
     background-color: rgb(229, 13, 13);
     color: rgb(237, 231, 231);
     padding: 1px;
   }
+
+  .avatar {
+    position: absolute;
+    /*right: 1px;
+    top: 1px;*/
+    border-radius: 9px;
+    background-color: rgb(74, 72, 72);
+    color: rgb(237, 231, 231);
+    padding: 1px;
+    }
   
   div {
     position: absolute;
-    background-color: rgb(50, 49, 49);
+    background-color: rgb(30, 29, 29);
     margin: 0;
-    padding: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     height: flex;
     padding-block: 10xp;
     display: flex;
     justify-content: left;
     align-items: center;
-  
-  }
+    border-style: groove;
+    }
   
