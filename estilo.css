@@ -1,0 +1,46 @@
+ button {
+        border-radius: 20px;
+        padding: 10px;
+    }
+  
+  button {
+    border: none;
+    background-color: rgb(77, 76, 76);
+    cursor: pointer;
+    fill: hsla(24, 19%, 95%, 0.97);
+  }
+  
+  button svg {
+    height: 15px;
+    width: 15px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+button:hover svg {
+    transform: scale(1.2);
+    fill: #c5c2bff6;
+  }
+  
+  body button span  {
+    position: absolute;
+    /*right: 1px;
+    top: 1px;*/
+    border-radius: 7px;
+    background-color: rgb(229, 13, 13);
+    color: rgb(237, 231, 231);
+    padding: 1px;
+  }
+  
+  div {
+    position: absolute;
+    background-color: rgb(50, 49, 49);
+    margin: 0;
+    padding: 10px;
+    height: flex;
+    padding-block: 10xp;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
+  }
+  
