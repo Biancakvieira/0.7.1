@@ -1,13 +1,16 @@
  button {
-        border-radius: 20px;
-        padding: 10px;
+        border-radius: 25px;
+        padding: 10px;  
+        width: 40px;
+        height: 40px;
     }
   
   button {
     border: none;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(74, 73, 73);
     cursor: pointer;
     fill: hsla(24, 19%, 95%, 0.97);
+    margin-right: 10px;
     }
   
   button svg {
@@ -23,8 +26,7 @@ button:hover svg {
   
   .bell {
     position: absolute;
-    /*right: 1px;
-    top: 1px;*/
+    top: 9px;
     border-radius: 9px;
     background-color: rgb(229, 13, 13);
     color: rgb(237, 231, 231);
@@ -33,10 +35,9 @@ button:hover svg {
 
   .avatar {
     position: absolute;
-    /*right: 1px;
-    top: 1px;*/
+    bottom: 9px;
     border-radius: 9px;
-    background-color: rgb(74, 72, 72);
+    background-color: rgb(51, 50, 50);
     color: rgb(237, 231, 231);
     padding: 1px;
     }
@@ -55,5 +56,6 @@ button:hover svg {
     justify-content: left;
     align-items: center;
     border-style: groove;
+    
     }
   
